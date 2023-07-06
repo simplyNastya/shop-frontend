@@ -13,7 +13,7 @@ export const App = () => {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <AuthLayout>
-          <BrowserRouter>
+          <BrowserRouter basename='shop-frontend'>
             <Navbar />
             <UserRoutes />
           </BrowserRouter>

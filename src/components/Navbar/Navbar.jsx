@@ -5,18 +5,18 @@ import { logout } from "../../redux/auth/auth-operations";
 import {
   BsFillBasket3Fill,
   BsBrightnessHigh,
-  BsFillBrightnessHighFill,
+  // BsFillBrightnessHighFill,
   BsToggleOff,
-  BsToggleOn,
+  // BsToggleOn,
   BsMoon,
-  BsMoonFill,
+  // BsMoonFill,
   BsHeart,
   BsFillPersonFill,
 } from "react-icons/bs";
 import styles from "./navbar.module.css";
 
-import LoginPage from "../../pages/LoginPage/LoginPage";
-import RegisterPage from "../../pages/RegisterPage/RegisterPage";
+// import LoginPage from "../../pages/LoginPage/LoginPage";
+// import RegisterPage from "../../pages/RegisterPage/RegisterPage";
 
 const Navbar = () => {
   const isLogin = useSelector(isUserLogin);
