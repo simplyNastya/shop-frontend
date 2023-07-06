@@ -1,0 +1,107 @@
+.headerSection {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid black;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoText{
+    color: black;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.logoText:hover,
+.logoText:focus {
+    color: red;
+}
+
+.themeContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.themeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background-color: transparent;
+}
+
+.themeBtn:hover,
+.themeBtn:focus {
+    color: red;
+}
+
+.themeSvg {
+    width: 20px;
+    height: 20px;
+}
+
+.toggleSvg {
+    width: 23px;
+    height: 23px;
+}
+
+.langContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    
+    color: black;
+}
+
+.langBtn {
+    border: none;
+    background-color: transparent;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.langBtn:hover,
+.langBtn:focus {
+    color: red;
+}
+
+.langMid {
+    height: 20px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{}
+
+.link{}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.addProdBtn {
+    padding: 15px 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
