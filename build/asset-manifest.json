@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "//simplynastya.github.io/shop-frontend/static/css/main.fa79ea53.css",
-    "main.js": "//simplynastya.github.io/shop-frontend/static/js/main.0239e9b6.js",
+    "main.css": "//simplynastya.github.io/shop-frontend/static/css/main.26f199cb.css",
+    "main.js": "//simplynastya.github.io/shop-frontend/static/js/main.8d50d8d8.js",
     "static/js/680.b124b452.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/680.b124b452.chunk.js",
+    "static/css/24.f25cdb56.chunk.css": "//simplynastya.github.io/shop-frontend/static/css/24.f25cdb56.chunk.css",
+    "static/js/24.ac281234.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/24.ac281234.chunk.js",
+    "static/css/724.f25cdb56.chunk.css": "//simplynastya.github.io/shop-frontend/static/css/724.f25cdb56.chunk.css",
+    "static/js/724.6ac80cd8.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/724.6ac80cd8.chunk.js",
     "static/js/451.fc719428.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/451.fc719428.chunk.js",
     "static/js/212.cee218d8.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/212.cee218d8.chunk.js",
     "static/js/611.b657eef2.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/611.b657eef2.chunk.js",
@@ -10,9 +14,13 @@
     "static/js/613.664aa92d.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/613.664aa92d.chunk.js",
     "static/js/794.20fa8602.chunk.js": "//simplynastya.github.io/shop-frontend/static/js/794.20fa8602.chunk.js",
     "index.html": "//simplynastya.github.io/shop-frontend/index.html",
-    "main.fa79ea53.css.map": "//simplynastya.github.io/shop-frontend/static/css/main.fa79ea53.css.map",
-    "main.0239e9b6.js.map": "//simplynastya.github.io/shop-frontend/static/js/main.0239e9b6.js.map",
+    "main.26f199cb.css.map": "//simplynastya.github.io/shop-frontend/static/css/main.26f199cb.css.map",
+    "main.8d50d8d8.js.map": "//simplynastya.github.io/shop-frontend/static/js/main.8d50d8d8.js.map",
     "680.b124b452.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/680.b124b452.chunk.js.map",
+    "24.f25cdb56.chunk.css.map": "//simplynastya.github.io/shop-frontend/static/css/24.f25cdb56.chunk.css.map",
+    "24.ac281234.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/24.ac281234.chunk.js.map",
+    "724.f25cdb56.chunk.css.map": "//simplynastya.github.io/shop-frontend/static/css/724.f25cdb56.chunk.css.map",
+    "724.6ac80cd8.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/724.6ac80cd8.chunk.js.map",
     "451.fc719428.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/451.fc719428.chunk.js.map",
     "212.cee218d8.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/212.cee218d8.chunk.js.map",
     "611.b657eef2.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/611.b657eef2.chunk.js.map",
@@ -21,7 +29,7 @@
     "794.20fa8602.chunk.js.map": "//simplynastya.github.io/shop-frontend/static/js/794.20fa8602.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa79ea53.css",
-    "static/js/main.0239e9b6.js"
+    "static/css/main.26f199cb.css",
+    "static/js/main.8d50d8d8.js"
   ]
 }
