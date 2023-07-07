@@ -10,16 +10,46 @@ const RegisterForm = ({ onSubmit }) => {
     onSubmit,
   });
 
-  const { name, email, password } = state;
+  const {
+    username,
+    email,
+    password,
+    name,
+    lastname,
+    birthday,
+    phone,
+    location,
+  } = state;
 
   return (
     <form onSubmit={handleSubmit}>
-      <TextField value={name} onChange={handleChange} {...fields.name} />
+      <TextField
+        value={username}
+        onChange={handleChange}
+        {...fields.username}
+      />
       <TextField value={email} onChange={handleChange} {...fields.email} />
       <TextField
         value={password}
         onChange={handleChange}
         {...fields.password}
+      />
+      <TextField value={name} onChange={handleChange} {...fields.name} />
+      <TextField
+        value={lastname}
+        onChange={handleChange}
+        {...fields.lastname}
+      />
+      <TextField
+        value={birthday}
+        onChange={handleChange}
+        {...fields.birthday}
+      />
+      <TextField value={phone} onChange={handleChange} {...fields.phone} />
+      <TextField
+        value={location}
+        onChange={handleChange}
+        {...fields.location}
       />
       <Button>Register</Button>
     </form>

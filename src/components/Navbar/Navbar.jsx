@@ -58,18 +58,26 @@ const Navbar = () => {
           </div>
           <ul className={styles.list}>
             <li className={styles.item}>
-              <NavLink to="/favorites" className={styles.link}>
+              <NavLink
+                to="/products"
+                className={`${styles.link} ${styles.profile}`}
+              >
+                Products
+              </NavLink>
+            </li>
+            <li className={styles.item}>
+              <NavLink to="favorites" className={styles.link}>
                 <BsHeart />
               </NavLink>
             </li>
             <li className={styles.item}>
-              <NavLink to="/basket" className={styles.link}>
+              <NavLink to="basket" className={styles.link}>
                 <BsFillBasket3Fill />
               </NavLink>
             </li>
             <li className={styles.item}>
               <NavLink
-                to="/profile"
+                to="profile"
                 className={`${styles.link} ${styles.profile}`}
               >
                 <BsFillPersonFill />
@@ -78,7 +86,7 @@ const Navbar = () => {
             </li>
             <li className={styles.item}>
               <NavLink
-                to="/add-product"
+                to="add-product"
                 className={`${styles.link} ${styles.addProdBtn}`}
               >
                 Add notice
@@ -86,7 +94,7 @@ const Navbar = () => {
             </li>
           </ul>
           {!isLogin && (
-            <NavLink to="/login" className={`${styles.link}`}>
+            <NavLink to="login" className={`${styles.link}`}>
               LogIn
             </NavLink>
           )}

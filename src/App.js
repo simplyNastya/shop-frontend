@@ -8,6 +8,8 @@ import AuthLayout from './pages/AuthLayout/AuthLayout'
 import Navbar from './components/Navbar/Navbar'
 import UserRoutes from './services/userRoutes'
 
+import RegisterPage from './pages/RegisterPage/RegisterPage';
+
 export const App = () => {
   return (
     <Provider store={store}>
@@ -15,6 +17,7 @@ export const App = () => {
         <AuthLayout>
           <BrowserRouter basename='shop-frontend'>
             <Navbar />
+            <RegisterPage />
             <UserRoutes />
           </BrowserRouter>
         </AuthLayout>
