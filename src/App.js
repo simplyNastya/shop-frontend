@@ -14,13 +14,13 @@ export const App = () => {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <AuthLayout>
+        {/* <AuthLayout> */}
           <BrowserRouter basename='shop-frontend'>
             <Navbar />
-            <RegisterPage />
+            {/* <RegisterPage /> */}
             <UserRoutes />
           </BrowserRouter>
-        </AuthLayout>
+        {/* </AuthLayout> */}
       </PersistGate>
     </Provider>
   );

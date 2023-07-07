@@ -22,13 +22,13 @@ const UserRoutes = () => {
     <Suspense>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route element={<AuthLayout />}>
-          <Route element={<PublicRoute />}>
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/products" element={<ProductsPage />} />
-          </Route>
+        {/* <Route element={<AuthLayout />}> */}
+        <Route element={<PublicRoute />}>
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/products" element={<ProductsPage />} />
         </Route>
+        {/* </Route> */}
         <Route element={<PrivateRoute />}>
           <Route path="/favorites" element={<FavoritePage />} />
           <Route path="/basket" element={<BasketPage />} />
