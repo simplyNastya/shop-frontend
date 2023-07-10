@@ -1,8 +1,14 @@
+import ProductsList from "../../components/ProductsList/ProductsList";
+import styles from "./productsPage.module.css";
+
 const ProductsPage = () => {
   return (
-    <div>
-      <h1>Product page</h1>
-    </div>
+    <section className={styles.section}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Product page</h1>
+        {/* <ProductsList products={products} className={styles.list} /> */}
+      </div>
+    </section>
   );
 };
 

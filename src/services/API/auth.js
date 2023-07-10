@@ -18,13 +18,13 @@ export const register = async (data) => {
 }
 
 export const login = async (data) => {
-  const { data: result } = await instance.post('/auth/login', data);
+  const { data: result } = await instance.post('/api/auth/login', data);
   setToken(result.token);
   return result;
 }
 
 export const logout = async () => {
-  const { data } = await instance.post('/auth/logout');
+  const { data } = await instance.post('/api/auth/logout');
   setToken();
   return data;
 }
@@ -32,7 +32,7 @@ export const logout = async () => {
 export const getCurrent = async (token) => {
   try { 
     setToken(token);
-    const { data } = await instance.get('/auth/current');
+    const { data } = await instance.get('/api/auth/current');
     return data;
   }
   catch (error) {

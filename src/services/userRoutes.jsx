@@ -5,7 +5,7 @@ import PublicRoute from "../components/PublicRoute/PublicRoute";
 import PrivateRoute from "../components/PrivateRoute/PrivateRoute";
 
 const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
-const AuthLayout = lazy(() => import("../pages/AuthLayout/AuthLayout"));
+// const AuthLayout = lazy(() => import("../pages/AuthLayout/AuthLayout"));
 const RegisterPage = lazy(() => import("../pages/RegisterPage/RegisterPage"));
 const LoginPage = lazy(() => import("../pages/LoginPage/LoginPage"));
 const ProductsPage = lazy(() => import("../pages/ProductsPage/ProductsPage"));
@@ -27,11 +27,11 @@ const UserRoutes = () => {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/products" element={<ProductsPage />} />
+          <Route path="/basket" element={<BasketPage />} />
         </Route>
         {/* </Route> */}
         <Route element={<PrivateRoute />}>
           <Route path="/favorites" element={<FavoritePage />} />
-          <Route path="/basket" element={<BasketPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/add-product" element={<AddProductPage />} />
         </Route>
