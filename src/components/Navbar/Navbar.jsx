@@ -100,7 +100,7 @@ const Navbar = () => {
           )}
           {isLogin && (
             <button onClick={onLogout} className={styles.btn}>
-              Logout
+              LogOut
             </button>
           )}
         </nav>
