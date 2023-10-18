@@ -1,7 +1,7 @@
 import instance from "./auth";
 
 export const getAllProducts = () => {
-  instance.get('/api/products')
+  return instance.get('/api/products')
 }
 
 export const getProductById = id => {

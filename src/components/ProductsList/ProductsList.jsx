@@ -4,6 +4,7 @@ import styles from "./productsList.module.css";
 import { Link } from "react-router-dom";
 
 const ProductsList = ({ products }) => {
+  console.log(products);
   const elements = products.map(
     ({
       _id,
