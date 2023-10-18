@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkshop_frontend=self.webpackChunkshop_frontend||[]).push([[989],{7989:function(e,n,s){s.r(n),s.d(n,{default:function(){return o}});var c=s(3329),t="productsPage_section__qn4BR",r="productsPage_container__TrwYP",a="productsPage_title__AcTXF",o=function(){return(0,c.jsx)("section",{className:t,children:(0,c.jsx)("div",{className:r,children:(0,c.jsx)("h1",{className:a,children:"Product page"})})})}}}]);
+//# sourceMappingURL=989.6108b985.chunk.js.map
