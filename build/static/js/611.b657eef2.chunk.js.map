@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/611.b657eef2.chunk.js","mappings":"wIAIA,UAJmB,WACjB,OAAOA,EAAAA,EAAAA,KAAAC,EAAAA,SAAA,GACT,C","sources":["pages/BasketPage/BasketPage.jsx"],"sourcesContent":["const BasketPage = () => {\n  return <></>;\n};\n\nexport default BasketPage;\n"],"names":["_jsx","_Fragment"],"sourceRoot":""}
